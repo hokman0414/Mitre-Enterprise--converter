@@ -71,3 +71,5 @@ def Append_Technique_Pattern():
 
 #next step run the list in a for loop to convert to T code technique
 
+for technique in Pattern_To_Name_Data_Set:
+    print(correspond_dict[technique])
